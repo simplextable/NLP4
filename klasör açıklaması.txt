@@ -1,0 +1,5 @@
+tarih: 014.06.20
+açıklama: vidhya'daki twitter sentimental analysis problemi
+
+ver001: burada tfidf ile problemi çözdük. RF, Naive Bayes ve RF'in balanced ve sublanced versiyonlarını denedik.
+	en iyi standart RF çıktı.
