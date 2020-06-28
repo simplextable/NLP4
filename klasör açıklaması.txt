@@ -3,3 +3,15 @@ açıklama: vidhya'daki twitter sentimental analysis problemi
 
 ver001: burada tfidf ile problemi çözdük. RF, Naive Bayes ve RF'in balanced ve sublanced versiyonlarını denedik.
 	en iyi standart RF çıktı.
+ver002: veri temizlemeyi ilerletince skor da ilerledi. rf ile çözdük 6 puan ilerledik.
+ver003: bu versiyonda yapay sinir ağı kullandık. bir de ağırlıklar ile ilgili bir fonksiyon yazdık. accuracy düşüp
+	f1 scoru artması lazım. öyle de oldu sanırım. ama nete yükleyince 0.37 geldi. önceki 0.68'di.
+ver004: bu versiyonda ağırlıklandırdık. ağırlıklara da oran verdik. sonuç 0.46
+ver001a:şu linkteki elemanın kodlarını kopyalayıp deneyeceğiz. 
+	https://sanjay-raghu.github.io/Sentiment-Analysis-Using-LSTM/
+	bu elemanın modelinde ypa öğrenmedi. şimdilik ilerlemeyeceğiz.
+ver001b: başka bir arkadaşın çözümünü deneyeceğiz. ilk etapta kendi eda'mız ile ilerleyeceğiz. 
+	 https://github.com/satya-thirumani/Python/blob/master/Sentiment%20Analysis/AV_practice_problem_Twitter_Sentiment_Analysis.ipynb
+	yükledik 0.7 aldık. 
+ver002b: burada bir iki değişiklik yaptık. puan 0.71 oldu.
+ver003b: bu versiyonda kelime birleştirmeye aldığımız kelimelerin sınıflarına bakacağız. 
